@@ -1,0 +1,67 @@
+src
+  + test_html
+  + unit2
+   main
+   route_auth.go
+   server.go
+   test1.go
+   test2
+   test2.go
+   tmpl
+   tmpl.go
+   util.go
+
+widget
+
+dsbridge
+
+studyroom
+
+teamview
+  + .gradle
+  + .idea
+  - app
+    + build
+    + libs
+    - src
+      + androidTest/java/io/anyrtc
+      - main
+        - java/io/anyrtc/teamview
+          - activity
+             BaseActivity.kt
+             LoginActivity.kt
+             MainActivity.kt
+             StartingActivity.kt
+          - utils
+             Adapter.kt
+             ColorTransition.java
+             MainItemDecoration.kt
+             MyConstants.kt
+             RtcManager.kt
+             ScreenUtils.kt
+             SpUtil.kt
+          - vm
+             MainVM.kt
+          + widget
+           App.kt
+        + res
+         AndroidManifest.xml
+      + test/java/io/anyrtc
+     .gitignore
+     build.gradle
+     proguard-rules.pro
+  + build/kotlin/sessions
+  + gradle/wrapper
+   .gitignore
+   build.gradle
+   gradle.properties
+   gradlew
+   gradlew.bat
+   local.properties
+   settings.gradle
+
+MyApplication
+
+ARBoardDemo
+
+shell
