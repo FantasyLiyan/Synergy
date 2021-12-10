@@ -1,9 +1,14 @@
-# Synergy
-智慧协同
-# 项目目录说明
-Synergy
-   - Synergy-Web：Web端代码目录
-        - Synergy-Experts：Web专家端代码目录
-        - Synergy-Admin：Web管理员端代码目录
-   - Synergy-Android：Native工人端代码目录
-   - Synergy-Server：协同服务端代码目录
+# Synergy 智慧协同
+
+## 代码目录
+
+   - -------------Synergy-Web    // Web端代码              
+       - --------------------Synergy-Experts     // 专家端
+       - --------------------Synergy-Admin       // 管理员端
+   - -------------Synergy-Android      // Android端代码
+   - ------------ Synergy-Server       // 服务业务端代码
+
+## 场景描述
+
+智慧协同是 anyRTC 提供的协同场景化解决方案，结合 anyRTC RTC SDK 和 anyRTC 内容中心等产品，将其复杂的 API 进行模块整合，实现了功能组件化，降低了开发门槛。该方案，Android 端作为工人端进行邀请专家端进入协同，在协同中，可以邀请其他专家进行多方位指导。管理员端进入后台可以查看当前协同，协同结束后会把整个过程进行录制回放，方便后续查找问题。 
+
